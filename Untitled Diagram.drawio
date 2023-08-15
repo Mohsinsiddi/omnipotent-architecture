@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T15:51:57.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tsQy5iCqLoHagzUYO2Zv" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T16:05:35.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZCGGCpYPcc8l9Le_SN4U" version="21.6.8" type="github">
   <diagram name="Page-1" id="S2XKrba_cc_Nq1T_Jke2">
     <mxGraphModel dx="1026" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,6 +127,62 @@
         </mxCell>
         <mxCell id="PqSHuzn6OhDRHvWEDTeR-51" value="Users making simultaneous&lt;br&gt;API calls and smart contract calls to&lt;br&gt;trigger omnichain action" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="600" y="765" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-52" value="This sub-service will be&amp;nbsp;&lt;br&gt;managed by our main Brdige&lt;br&gt;Service/Relayer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="20" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-53" value="This sub-service will be&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;managed by our main Brdige&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Service/Relayer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-54" value="This sub-service will be&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;managed by our main Brdige&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Service/Relayer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.385;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PqSHuzn6OhDRHvWEDTeR-2" target="PqSHuzn6OhDRHvWEDTeR-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="330" />
+              <mxPoint x="40" y="300" />
+              <mxPoint x="110" y="270" />
+              <mxPoint x="150" y="260" />
+              <mxPoint x="340" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-57" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.811;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PqSHuzn6OhDRHvWEDTeR-1" target="PqSHuzn6OhDRHvWEDTeR-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="170" />
+              <mxPoint x="600" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.2;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PqSHuzn6OhDRHvWEDTeR-3" target="PqSHuzn6OhDRHvWEDTeR-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="300" />
+              <mxPoint x="570" y="260" />
+              <mxPoint x="490" y="230" />
+              <mxPoint x="600" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-59" value="This is a global Bridge Service to&lt;br&gt;manage all the sub services on each&amp;nbsp;&lt;br&gt;chain to listen to events from deployed smart contracts and based on instruction doing action as a Relayer Service&amp;nbsp;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="685" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PqSHuzn6OhDRHvWEDTeR-63" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="PqSHuzn6OhDRHvWEDTeR-59" target="PqSHuzn6OhDRHvWEDTeR-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="660" as="sourcePoint" />
+            <mxPoint x="390" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="610" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
